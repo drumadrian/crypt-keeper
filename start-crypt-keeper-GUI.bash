@@ -1,0 +1,1 @@
+/Users/adrian/Desktop/myhomeforcode/crypt-keeper/crypt-keeper-virtual-environment/bin /Users/adrian/Desktop/myhomeforcode/crypt-keeper/crypt-keeper-gui.py
