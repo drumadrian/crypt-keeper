@@ -52,3 +52,11 @@ Folders:
 -this has the public keys for you and your team of people transferring files
 
 
+
+
+##Original References 
+ 
+[http://www.czeskis.com/random/openssl-encrypt-file.html](http://www.czeskis.com/random/openssl-encrypt-file.html)
+
+
+[https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/](https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/)
