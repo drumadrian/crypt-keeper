@@ -26,6 +26,15 @@ a simple command-line system for encrypting and decrypting files using Public an
 ###generate-my-private-and-public-keys.sh
 -this is the primary script to create your public and private keys
 
+###encrypt.sh
+-this script is used to encrypt a file
+
+###decrypt.sh
+-this script is used to decrypt a file sent to you
+
+###salt.bin
+-this file is blank initially and is used to store the random data (salt) for use when encrypting files
+
 
 -
 
