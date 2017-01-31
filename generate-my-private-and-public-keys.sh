@@ -61,7 +61,7 @@ mv $privatekeyname my-private-key-folder/$privatekeyname
 mv $publickeyname public-keys-folder/$publickeyname
 
 
-
+#Promt and Complete
 printf "\n\nCompleted key generation and placement....pushing your key back to origin is recommended\n\n"
 
 

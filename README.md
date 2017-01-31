@@ -26,6 +26,8 @@ a simple command-line system for encrypting and decrypting files using Public an
 ###generate-my-private-and-public-keys.sh
 -this is the primary script to create your public and private keys
 
+```Usage:   bash generate-my-private-and-public-keys.sh name```
+
 ###encrypt.sh
 -this script is used to encrypt a file
 
