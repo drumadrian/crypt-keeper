@@ -1,2 +1,14 @@
 .DS_Store
+
+#ignore the virtual environment used for python development
 crypt-keeper-virtual-environment
+
+# exclude everything in thise folders
+decrypted-output-folder/*
+encrypted-output-folder/*
+temporary-files/* 
+
+# exceptions to the rule
+!decrypted-output-folder/.gitkeep
+!encrypted-output-folder/.gitkeep
+!temporary-files/.gitkeep
