@@ -35,14 +35,6 @@ if [ -z $recipientpublickeyfile ]
 fi
 
 
-#debug
-if [ -z $debug ]
-	then
-	printf "\n recipientpublickeyfile= $recipientpublickeyfile \n"; 
-	printf "\n plainfile= $plainfile \n"; 
-fi
-
-
 
 
 
@@ -57,8 +49,11 @@ plainfile_encrypted=$encrypted_output_folder/$plainfile.enc
 openssl rand -base64 32 > $random_key
 
 #debug
-if [ -z $debug ]
+if [ $debug ]
 	then
+	printf "\n recipientpublickeyfile= $recipientpublickeyfile \n"; 
+	printf "\n plainfile= $plainfile \n"; 
+
 	printf "\n random_key= $random_key \n"
 	printf "\n temporary_files_folder= $temporary_files_folder \n\n"
 	printf "\n encrypted_random_key= $encrypted_random_key \n\n"

@@ -7,7 +7,7 @@ a simple command-line system for encrypting and decrypting files using Public an
 
 ##Usage
 
-
+Usage summary..... *in progress*
 
 
 
@@ -31,19 +31,20 @@ a simple command-line system for encrypting and decrypting files using Public an
 ###encrypt.sh
 -this script is used to encrypt a file
 
+```Usage:   bash encrypt.sh plainfile.txt recipientpublickeyfile```
+
 ###decrypt.sh
 -this script is used to decrypt a file sent to you
 
-###salt.bin
--this file is blank initially and is used to store the random data (salt) for use when encrypting files
+```Usage:   bash decrypt.sh plainfile.txt.enc myprivatekeyfile encrypted_random_key```
 
 
 -
 
-Folders:
+##Folders:
 
 	javascript
--folder with javascript files
+-folder with javascript files for webpage Interfase (*not yet developed*)
 	
 -
 	my-private-key-folder 
@@ -53,6 +54,17 @@ Folders:
 	public-keys-folder
 -this has the public keys for you and your team of people transferring files
 
+-
+	decrypted-output-folder
+-this has output of the decrypt.sh script.  These are the safely decrypted files
+
+-
+	encrypted-output-folder
+-this has output of the encrypt.sh script.  These are the safely encrypted files
+
+-
+	temporary-files
+-this folder exists to hold the random key files. These files are the original binary randomly generated symytric keys and the encrypted binary randomly generated symytric keys.  This folder's contents may be deleted after decryption is successful. 
 
 
 
